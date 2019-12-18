@@ -1,0 +1,22 @@
+{
+  "name": "imoniu_paieska",
+  "version": "1.0.0",
+  "description": "Imoniu paieska pagal imones koda",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "extract-zip": "^1.6.7",
+    "mongodb": "3.2.7",
+    "stream-to-mongo-db": "1.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2"
+  }
+}

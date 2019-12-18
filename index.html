@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Įmonių duomenys</title>
+</head>
+<body class="index">
+  <section class="header">
+  </section>
+  <form action="./index.html" method="POST">
+    <h2>Įmonės paieška</h2>
+    <br>
+    <label for="imonesKodas">Įveskite įmonės kodą:</label>
+    <input type="text" id="imonesKodas" name="imonesKodas" class="imonesKodas" maxlength="16" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+    <input type="submit" id="ieskoti" value="Ieškoti">
+  </form>
+  <br>
+  <div id="imonesPavadinimas">Įmonės pavadinimas:</div>
+  <div id="darbuotojuSkaicius">Darbuotojų skaičius:</div>
+  <div id="vidutinisAtlyginimas">Vidutinis atlyginimas, eur:</div>
+
+</body>
+</html>
